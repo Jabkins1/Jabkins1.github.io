@@ -1,5 +1,13 @@
-const checked2 = document.querySelector('.js-input-dd1') == 0;
-var checked = document.querySelector('.js-input-dd1') == 0;
+const Vibor23 = document.getElementById("select");
+const Vibor231 = document.getElementById("select2");
+const Vibor232 = document.getElementById("select3");
+const Vibor233 = document.getElementById("select4");
+const Vibor234 = document.getElementById("select5");
+const Vibor235 = document.getElementById("select6");
+const Vibor236 = document.getElementById("select7");
+const Vibor237 = document.getElementById("select8");
+const Vibor238 = document.getElementById("select9");
+const Vibor239 = document.getElementById("select10");
 const inputANode = document.querySelector(".js-input-a");
 const inputBNode = document.querySelector(".js-input-b");
 const inputCNode = document.querySelector(".js-input-c");
@@ -24,27 +32,25 @@ const inputDDNode = document.querySelector(".js-input-dd");
 const btnResultNode = document.querySelector(".js-btn-result");
 const outputNode = document.querySelector(".js-output");
 const outputNode23 = document.querySelector(".js-output23");
-btnResultNode.addEventListener(`click`, function(){
-    console.log(checked)
-    if (checked == true) {
-        Vibor23 = 130;
-    }
-    else {
-        Vibor23 = 150;
-    }
-    })
+btnResultNode.onclick = (event) => {
+    console.log(Vibor23.value), console.log(Vibor231.value),
+    console.log(Vibor232.value), console.log(Vibor233.value),
+    console.log(Vibor234.value), console.log(Vibor235.value),
+    console.log(Vibor236.value), console.log(Vibor237.value),
+    console.log(Vibor238.value), console.log(Vibor239.value);
+};
 btnResultNode.addEventListener(`click`, function () {
-    output1 = inputANode.value - inputDDNode.value
-    output2 = inputCNode.value - inputBNode.value
-    output3 = inputENode.value - inputDNode.value
-    output4 = inputGNode.value - inputFNode.value
-    output5 = inputYNode.value - inputQNode.value
-    output6 = inputINode.value - inputMNode.value
-    output7 = input212Node.value - inputONode.value
-    output8 = input4Node.value - input3Node.value
-    output1232 = input6Node.value - input5Node.value
-    output10 = input8PNode.value - input7Node.value
-    output = (output1 + output2 + output3 + output4 + output5 + output6 + output7 + output8 + output1232 + output10) * Vibor23;
+    output1 = (inputANode.value - inputDDNode.value) * Vibor23.value
+    output2 = (inputCNode.value - inputBNode.value) * Vibor231.value
+    output3 = (inputENode.value - inputDNode.value) * Vibor232.value
+    output4 = (inputGNode.value - inputFNode.value) * Vibor233.value
+    output5 = (inputYNode.value - inputQNode.value) * Vibor234.value
+    output6 = (inputINode.value - inputMNode.value) * Vibor235.value
+    output7 = (input212Node.value - inputONode.value) * Vibor236.value
+    output8 = (input4Node.value - input3Node.value) * Vibor237.value
+    output1232 = (input6Node.value - input5Node.value) * Vibor238.value
+    output10 = (input8PNode.value - input7Node.value) * Vibor239.value
+    output = (output1 + output2 + output3 + output4 + output5 + output6 + output7 + output8 + output1232 + output10);
     outputNode.innerHTML = output
 })
 const inputSSNode = document.querySelector(".js-input-ss")
