@@ -1,0 +1,87 @@
+body {
+  background-image: url("photo_2023-06-10_03-08-45.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p {
+  font-size: 400%;
+  font-family: Inter;
+  text-align: center;
+  color:rgba(60, 29, 199, 0.968);
+  font-weight: bold;
+}
+
+div.Private {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 400%;
+  font-family: Inter;
+  font-weight: bold;
+  color: rgb(159, 17, 46);
+
+
+}
+
+div.inputs {
+  display: flex;
+  justify-content: center;
+  margin: 200px 100px 20px;
+  width: auto;
+}
+
+div.inputs, .input {
+  margin-left: 25%;
+  margin: 0px 100px 20px;
+  width: auto;
+}
+
+h1 {
+  font-size: 200%;
+  font-family: Inter;
+  text-align: center
+}
+div.Finish{
+text-align: center;
+font-family: Inter;
+font-size: 200%;
+}
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px){
+div.input{
+font-size: 60%;
+display:center;
+}
+}
+
+div.buttons {
+  display: flex;
+
+}
+
+.js-input-dd1 {
+  right: 10px;
+  position: relative;
+}
+
+.js-input-dd, .js-input-3, .js-input-o, .js-input-m, .js-input-b, .js-input-d, .js-input-f,
+ .js-input-q, .js-input-m, .js-input-5 {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+
+.js-input-ss, .js-input-eda, .js-input-cs,
+.js-input-gaf, .js-input-ya, .js-input-ia, 
+.js-input-pap, .js-input-12, .js-input-13 {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.js-btn-result {
+  position: relative;
+  left: 155px;
+}
+
+
