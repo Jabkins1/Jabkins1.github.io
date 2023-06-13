@@ -1,50 +1,128 @@
-body {
-  background-image: url("photo_2023-06-10_03-08-45.jpg");
-  height: 100vh;
+.background{
+  background:
+  linear-gradient(red, transparent),
+  linear-gradient(to top left, lime, transparent),
+  linear-gradient(to top right, blue, transparent);
+  background-blend-mode: screen;
+  height: 77vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
-p {
-  font-size: 400%;
-  font-family: Inter;
-  text-align: center;
-  color:rgba(60, 29, 199, 0.968);
-  font-weight: bold;
+
+.header {
+  background-color: rgba(25, 67, 126, 0.89);
+  height: 15vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-div.Private {
+.header-line {
+  padding-top: 12.5px;
   display: flex;
-  justify-content: flex-end;
-  font-size: 400%;
-  font-family: Inter;
-  font-weight: bold;
-  color: rgb(159, 17, 46);
-
-
 }
 
-div.inputs {
+
+.coment-img {
+  margin-right: 500px;
+  margin-left: 75px;
+  border-radius: 50%;
+  width: 170px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  color: rgb(95, 229, 17);
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 550px;
+  margin-left: 375px;
+  font-size: 500%;
+  font-family: 'Tinos';
+  font-weight: 400;
+}
+
+.nav-item_2 {
+  color: rgb(95, 229, 17);
+  text-align: center;
+  margin-top: 40px;
+  font-size: 350%;
+  margin-left: 115px;
+  font-family: 'Tinos';
+  font-weight: 400;
+}
+
+.inputs {
+  padding-top: 100px;
   display: flex;
   justify-content: center;
-  margin: 200px 100px 20px;
   width: auto;
+  color: rgb(16, 30, 179);
+  text-align: center;
+  font-size: 25px;
 }
 
-div.inputs, .input {
-  margin-left: 25%;
-  margin: 0px 100px 20px;
-  width: auto;
+
+.count_percent {
+  margin-left: 250px;
 }
 
-h1 {
-  font-size: 200%;
-  font-family: Inter;
-  text-align: center
+.js-btn-result {
+  position: absolute;
+  color: #000000; 
+  font-size: 35px;
+  padding-top: 5px;
+  margin-right: 250px;
 }
-div.Finish{
+
+.js-output {
+  position: absolute;
+  color: rgb(16, 30, 179);
+  margin-left: 306px;
+  font-size: 40px;
+}
+
+.js-btn-result2 {
+  position: absolute;
+  color: rgb(0, 0, 0); 
+  font-size: 35px;
+  padding-top: 5px;
+  right: 715px;
+}
+
+.js-output2 {
+  position: absolute;
+  color:rgb(16, 30, 179);
+  padding-top: 20px;
+  margin-left: 153px;
+  font-size: 40px;
+}
+
+
+
+.Finish{
+position: absolute;
+color:rgb(0, 0, 0); 
+font-size: 80px;
+padding-top: 70px;
+margin-left: 890px;
 text-align: center;
-font-family: Inter;
-font-size: 200%;
+font-weight: 400;
+font-family: 'Tinos';
+}
+
+.js-outputfinish{
+  color:rgb(16, 30, 179);
+}
+
+.footer{
+  background-color: #000000;
+  padding: 40px 0px;
+  color: #FFF;
+  text-align: center;
 }
 @media only screen
 and (min-device-width: 320px)
@@ -82,6 +160,11 @@ div.buttons {
 .js-btn-result {
   position: relative;
   left: 155px;
+}
+
+@media(max-width: 1000px) {
+  
+
 }
 
 
